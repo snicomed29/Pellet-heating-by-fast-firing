@@ -45,7 +45,7 @@ $$T_{gas}(t) = T_0 + (T_{furnace} - T_0)\left(1 - e^{-t/\tau_{gas}}\right), \qqu
 
 ## Requirements
 
-- Python 3.8 or later (tested with Python X.Y)
+- Python 3.8 or later (tested with Python 3.14.4)
 - `numpy`, `scipy`, `pandas`, `matplotlib`
 - `tkinter` (included with the standard Python installers on Windows and macOS; on Debian/Ubuntu install it with `sudo apt install python3-tk`)
 
