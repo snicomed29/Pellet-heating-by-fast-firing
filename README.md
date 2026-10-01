@@ -27,13 +27,13 @@ $$\frac{\partial T}{\partial t} = \alpha \left( \frac{\partial^2 T}{\partial r^2
 - **Axis ($r = 0$):** symmetry, $\partial T / \partial r = 0$.
 - **Lateral surface ($r = R$) and top ($z = H$):** convection plus linearised radiation,
 
-$$-\kappa \frac{\partial T}{\partial n} = h\,(T - T_{gas}) + h_{rad}\,(T - T_{rad}), \qquad h_{rad} = \varepsilon \sigma (T + T_{rad})(T^2 + T_{rad}^2)$$
+$$-\kappa \frac{\partial T}{\partial n} = h\cdot(T - T_{gas}) + h_{rad}\cdot(T - T_{rad}), \qquad h_{rad} = \varepsilon \sigma (T + T_{rad})(T^2 + T_{rad}^2)$$
 
 - **Base ($z = 0$):** heat exchange with the support at $T_{base}$ through a contact resistance $R_c$ in series with an alumina layer of thickness $\delta$,
 
-$$-\kappa \frac{\partial T}{\partial n} = h_{base}\,(T - T_{base}), \qquad h_{base} = \left( R_c + \frac{\delta}{\kappa_{Al_2O_3}(T)} \right)^{-1}$$
+$$-\kappa \frac{\partial T}{\partial n} = h_{base}\cdot(T - T_{base}), \qquad h_{base} = \left( R_c + \frac{\delta}{\kappa_{Al_2O_3}(T)} \right)^{-1}$$
 
-  where $\kappa_{Al_2O_3}(T) = 85.686*(T/273.15)^{-1.01}$ W/m/K (Touloukian-type correlation, $T$ in K, lower limit 2 W/m/K).
+  where $\kappa_{Al_2O_3}(T) = 85.686\cdot(T/273.15)^{-1.01}$ W/m/K (Touloukian-type correlation, $T$ in K, lower limit 2 W/m/K).
 
 **Furnace environment.** The furnace is assumed to be already stabilised at $T_{furnace}$. The gas and the radiating walls seen by the pellet approach this temperature with short first-order transients:
 
