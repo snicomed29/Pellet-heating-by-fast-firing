@@ -33,7 +33,7 @@ $$-\kappa \frac{\partial T}{\partial n} = h\,(T - T_{gas}) + h_{rad}\,(T - T_{ra
 
 $$-\kappa \frac{\partial T}{\partial n} = h_{base}\,(T - T_{base}), \qquad h_{base} = \left( R_c + \frac{\delta}{\kappa_{Al_2O_3}(T)} \right)^{-1}$$
 
-  where $\kappa_{Al_2O_3}(T) = 85.686\,(T/273.15)^{-1.01}$ W/m/K (Touloukian-type correlation, $T$ in K, lower limit 2 W/m/K).
+  where $\kappa_{Al_2O_3}(T) = 85.686*(T/273.15)^{-1.01}$ W/m/K (Touloukian-type correlation, $T$ in K, lower limit 2 W/m/K).
 
 **Furnace environment.** The furnace is assumed to be already stabilised at $T_{furnace}$. The gas and the radiating walls seen by the pellet approach this temperature with short first-order transients:
 
