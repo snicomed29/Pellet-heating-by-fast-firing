@@ -115,7 +115,7 @@ These values are set in `run_simulation()` and are not exposed in the GUI. Edit 
 If you use this code in your work, please cite:
 
 ```
-Ferrer-Nicomedes, S., Mormeneo-Segarra, A., Borrell, A., Vicente-Agut, A., Barba-Juan, A. Pellet heating model for fast firing (v1.0). Zenodo, 2026. https://doi.org/[DOI]
+Ferrer-Nicomedes, S., Mormeneo-Segarra, A., Borrell, A., Vicente-Agut, A., Barba-Juan, A. Pellet heating model for fast firing (v1.0). Zenodo, 2026. https://doi.org/10.5281/zenodo.23084624
 ```
 
 ## License
