@@ -56,7 +56,7 @@ pip install -r requirements.txt
 ## Usage
 
 ```bash
-python pellet_heating_gui.py
+python pellet_fast_firing_gui.py
 ```
 
 1. Fill in the input window and press **Run simulation**.
