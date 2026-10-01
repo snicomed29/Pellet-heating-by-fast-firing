@@ -41,7 +41,7 @@ $$T_{gas}(t) = T_0 + (T_{furnace} - T_0)\left(1 - e^{-t/\tau_{gas}}\right), \qqu
 
 **Numerics.** Finite differences on a uniform $15 \times 15$ ($r \times z$) grid (method of lines), integrated in time with `scipy.integrate.solve_ivp` (BDF, `rtol = 1e-6`, `atol = 1e-7`).
 
-**Heating times.** $t_{50}$ and $t_{99}$ are the first times at which the centre temperature ($r = 0$, $z \approx H/2$) reaches $T_0 + 0.50\,(T_{furnace} - T_0)$ and $T_0 + 0.99\,(T_{furnace} - T_0)$, respectively.
+**Heating times.** $t_{50}$ and $t_{99}$ are the first times at which the centre temperature ($r = 0$, $z \approx H/2$) reaches $T_0 + 0.50\cdot(T_{furnace} - T_0)$ and $T_0 + 0.99\cdot(T_{furnace} - T_0)$, respectively.
 
 ## Requirements
 
