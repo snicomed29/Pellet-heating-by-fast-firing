@@ -76,7 +76,7 @@ Decimal commas are accepted in the input fields.
 | Furnace temperature | T_furnace | 1200 | °C |
 | Base (support) temperature | T_base | 1200 | °C |
 | Pellet diameter | D | 10 | mm |
-| Pellet thickness | H | 1.5 | mm |
+| Pellet thickness | H | 1.25 | mm |
 | Convective coefficient | h | 25 | W/m²/K |
 | Emissivity | ε | 0.80 | – |
 | Simulation time | t_end | 60 | s |
