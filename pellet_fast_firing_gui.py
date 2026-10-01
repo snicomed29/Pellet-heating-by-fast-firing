@@ -13,7 +13,7 @@ def k_alumina(T_C):
     Alumina thermal conductivity - Touloukian correlation for dense polycrystalline alumina.
     Monotonically decreasing with temperature, physically correct.
     T_C in °C, k in W/m/K.
-    Valid range: 25 - 1200 °C (approx. 30 W/m/K at 25°C, ~7 W/m/K at 1200°C).
+    Valid range: 25 - 1200 °C (approx. 78 W/m/K at 25°C, ~16 W/m/K at 1200°C).
     """
     T_K = np.clip(T_C, 0, 2000) + 273.15
     k = 85.686 * (T_K / 273.15) ** (-1.01)
