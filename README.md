@@ -104,7 +104,7 @@ These values are set in `run_simulation()` and are not exposed in the GUI. Edit 
 
 ## Limitations
 
-- Pellet properties (α, κ) are constant and independent of temperature.
+- Pellet properties (α, κ) are set to be constant and independent of temperature. Experimentally, both can be measured at desired temperatures to improve accuracy.
 - The grid is fixed and coarse; check mesh convergence if you change the geometry substantially.
 - Radiation is exchanged with a single effective temperature (no view factors) and is linearised.
 - The contact resistance and the support thickness are assumed values, not measured ones.
